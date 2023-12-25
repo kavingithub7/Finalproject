@@ -1,15 +1,39 @@
 .forheadersection{
-    background-color: #fff;
-
+   border: 1px solid black;   
+    position: fixed;
+    width: 100%;
+}
+.forappizeicon{
+    color: white
+    
+}
+.forappizefont{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.me-auto{
+    margin-left: 385px;
+    font-family: 'Poppins', sans-serif, "proxima-nova", "Helvetica Neue", Helvetica, Arial;
+    font-weight: 400;
+}
+.fornavigation{
+    color:white;
+}
+.fornavigation{
+    background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
 
 }
-.forappize{
-    color: blue;
+.forlinkcolor{
+    color: white;
+    margin-left: 10px;
 }
-.forAppize{
+.forlinkcolor:hover
+{
+    color: rgb(169, 147, 128);
+}
 
-    width: 20%;
-    height: 100px;
-    border: 1px solid black;
-    background-image: url(IMAGES/logo.png);
-}
+
+
+
