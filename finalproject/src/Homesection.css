@@ -1,30 +1,27 @@
 .forhomesction{
     display: grid;
-    grid-template-columns: auto auto;
-    border: 1px solid black;
+    grid-template-columns: 50% 50%;
+    /* border: 1px solid black; */
     height: 588px;
     background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
     /* background-color: aqua; */
-    
 }
 .homesection1{
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    
 }
 .homesection2{
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 20px;
     font-size: 30px;
     text-align: center;
     background-repeat: no-repeat;
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 .forhomeheader{
     margin-top: 180px;
-    
 }
 .forheaderlineone{
     color: black;
@@ -39,6 +36,7 @@
     margin-left: 55px;
     font-size: 3.5rem;
     color: white;
+    margin-top: -10px;
 }
 .forcontentline3{
    font-size: medium;
@@ -54,4 +52,41 @@
 }
 .forhomecontent{
     text-align: left;
+    line-height: 15px;
+    color: white;
 }
+.forhomebutton{
+    margin-left: -375px;
+    margin-top: 60px;
+    height: 15%;
+}
+.forbuttonstyle{
+    border-radius: 12px;
+    width: 20%;
+    height: 50%;
+    margin-left: 85px;
+    font-weight: 60;
+    text-align: center;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    border-color: azure;
+    border-width: 1px;
+    
+}
+.forbuttonstyle:hover{
+    background-color: white;
+    color: black;
+}
+/* below line code is for image in hom,e sectgion*/
+.homesectionimage{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 430px;
+    margin-top: 126px;
+    margin-left: 67px;
+    background-image: url(IMAGES/header-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
