@@ -9,7 +9,11 @@ export default function Specificationsection()
                
             </div>
             <div className="specificationcontent">
-                <div className="features1">hii</div>
+                <div className="features1">
+                    <div className="feature1logo"></div>
+                    <div className="feature1header"></div>
+                    <div className="feature1content"></div>
+                </div>
                 <div className="features2">hii</div>
                 <div className="features3">hii</div>
             </div>
