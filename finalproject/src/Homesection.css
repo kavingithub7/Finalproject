@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     /* border: 1px solid black; */
-    height: 588px;
+    height: 591.6px;
     background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
     /* background-color: aqua; */
 }
@@ -62,7 +62,7 @@
 }
 .forbuttonstyle{
     border-radius: 12px;
-    width: 20%;
+    width: 18%;
     height: 50%;
     margin-left: 85px;
     font-weight: 60;
@@ -71,7 +71,7 @@
     background-color: transparent;
     color: white;
     border-color: azure;
-    border-width: 1px;
+    border-width: 1.5px;
     
 }
 .forbuttonstyle:hover{

@@ -1,0 +1,44 @@
+.specification{
+    display: grid;
+    grid-template-rows: 40% 60%;
+    border: 1px solid black;
+    height: 500px;
+}
+.specificationheader{
+    border: 1px solid black;
+    text-align: center;
+}
+.forheader{
+    font-weight: 400;
+    color: #2c2e30;
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.specificationcontent{
+    border: 1px solid black;
+
+}
+.forline{
+   border-top: 3px solid #aa0919;
+   width: 6%;
+   margin-left: 47%;
+}
+.specificationcontent
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    border: 1px solid black;
+    column-gap: 40px;
+    padding-left: 80px;
+
+}
+.features1{
+    border: 1px solid black;
+}
+.features2{
+    border: 1px solid black;
+}
+.features3{
+    border: 1px solid black;
+}

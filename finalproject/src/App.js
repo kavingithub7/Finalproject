@@ -5,14 +5,17 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './Headersection.css';
 import './Homesection.css';
 import Homesection from './Homesection';
+import './Specification.css';
+import Specificationsection from './Specificationsection';
+
 
 function App() {
   return (
     <div className="App">
       <Headersection/>
       <Homesection/>
-      <Homesection/>
-      <Homesection/>
+      <Specificationsection/>
+    
       
     
   </div>
