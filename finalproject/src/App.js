@@ -7,6 +7,8 @@ import './Homesection.css';
 import Homesection from './Homesection';
 import './Specification.css';
 import Specificationsection from './Specificationsection';
+import Advancesection from './Advancesection';
+import './Advancesection.css';
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
       <Headersection/>
       <Homesection/>
       <Specificationsection/>
+      <Advancesection/>
       
     
       
