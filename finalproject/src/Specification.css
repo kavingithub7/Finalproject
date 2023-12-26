@@ -1,11 +1,12 @@
 .specification{
     display: grid;
-    grid-template-rows: 40% 60%;
-    border: 1px solid black;
-    height: 500px;
+    grid-template-rows: 35% 65%;
+    /* border: 3px solid rgb(204, 54, 54); */
+    height: 550px;
+    background-color: #f8f9fa;
 }
 .specificationheader{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
 }
 .forheader{
@@ -16,7 +17,7 @@
     text-transform: uppercase;
 }
 .specificationcontent{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 .forline{
@@ -27,19 +28,52 @@
 .specificationcontent
 {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    border: 1px solid black;
-    column-gap: 40px;
-    padding-left: 80px;
-
+    grid-template-columns: 29.2% 29.2% 29.2%;
+    /* border: 1px solid black; */
+    padding-left: 5%;
+    column-gap: 2%;
 }
 .features1{
-    border: 1px solid black;
+    margin-top: 10px;
+    /* border: 1px solid black; */
     display: grid;
+    grid-template-rows: 40% 15% 45% ;
+    height: 270px ;   
 }
 .features2{
-    border: 1px solid black;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: 40% 15% 45% ;
+    height: 270px ;
 }
 .features3{
-    border: 1px solid black;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: 40% 15% 45% ;
+    height: 270px ;
+}
+.feature1logo{
+    /* border: 1px solid balck; */
+    margin-left: 43%;
+    margin-top: 20px;
+
+}
+.feature1header{
+    /* border: 1px solid balck; */
+    text-align: center;
+    color: #5b5f63;
+    font-size: 1.4rem;
+}
+.feature1content
+{
+    /* border: 1px solid balck; */
+    text-indent: 0%;
+}
+.contenlines{
+    margin-left: 30px;
+}
+.features3:hover,.features2:hover,.features1:hover{
+    background-color: white
 }
