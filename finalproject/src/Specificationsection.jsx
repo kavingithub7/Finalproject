@@ -15,7 +15,7 @@ export default function Specificationsection()
   <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
 </svg></span> </div>
                     <div className="feature1header">
-                        <p>Fully responsive</p>
+                        <p className="feature1font">Fully responsive</p>
                     </div>
                     <div className="feature1content">
                         <span className="contenlines">We build pretty complex tools and this</span><br/><span className="contenlines">allows us to take designs and turn them</span> <br/><span className="contenlines">into functional quickly and easily.</span> 
@@ -27,7 +27,7 @@ export default function Specificationsection()
   <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
 </svg></span> </div>
                     <div className="feature1header">
-                        <p>Fully responsive</p>
+                        <p className="feature1font">Settings</p>
                     </div>
                     <div className="feature1content">
                         <span className="contenlines">We build pretty complex tools and this</span><br/><span className="contenlines">allows us to take designs and turn them</span> <br/><span className="contenlines">into functional quickly and easily.</span> 
@@ -39,7 +39,7 @@ export default function Specificationsection()
   <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
 </svg></span> </div>
                     <div className="feature1header">
-                        <p>Fully responsive</p>
+                        <p className="feature1font">Support 24/7</p>
                     </div>
                     <div className="feature1content">
                         <span className="contenlines">We build pretty complex tools and this</span><br/><span className="contenlines">allows us to take designs and turn them</span> <br/><span className="contenlines">into functional quickly and easily.</span> 

@@ -9,7 +9,7 @@ export default function Homesection()
                             </div>
                 <div className="forhomecontent">
                     <span className="forcontentline1">Our mission is to help you do the impossible. We’re engineers.</span><br/>
-                    <span className="forcontentline2">Inventors. Problem Solvers. What matters to you it also shhould be</span><br/>
+                    <span className="forcontentline2">Inventors. Problem Solvers. What matters to you it also should be</span><br/>
                     <span className="forcontentline3">help us, inspires what we do.</span><br/>
                 </div>
                 <div className="forhomebutton">

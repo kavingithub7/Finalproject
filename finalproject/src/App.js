@@ -9,6 +9,10 @@ import './Specification.css';
 import Specificationsection from './Specificationsection';
 import Advancesection from './Advancesection';
 import './Advancesection.css';
+import './Whyisbest.css';
+import Whyisbestsection from './Whyisbest';
+import Videosection from './Videosection';
+import './Videosection.css';
 
 
 function App() {
@@ -18,6 +22,9 @@ function App() {
       <Homesection/>
       <Specificationsection/>
       <Advancesection/>
+      <Whyisbestsection/>
+      <Videosection/>
+      <Videosection/>
       
     
       

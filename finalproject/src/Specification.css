@@ -2,12 +2,13 @@
     display: grid;
     grid-template-rows: 35% 65%;
     /* border: 3px solid rgb(204, 54, 54); */
-    height: 550px;
+    height: 650px;
     background-color: #f8f9fa;
 }
 .specificationheader{
     /* border: 1px solid black; */
     text-align: center;
+    margin-top: 100px;
 }
 .forheader{
     font-weight: 400;
@@ -16,9 +17,12 @@
     margin: 0;
     text-transform: uppercase;
 }
+.feature1font
+{
+    color: black;
+}
 .specificationcontent{
     /* border: 1px solid black; */
-
 }
 .forline{
    border-top: 3px solid #aa0919;
@@ -34,21 +38,21 @@
     column-gap: 2%;
 }
 .features1{
-    margin-top: 10px;
+    margin-top: 70px;
     /* border: 1px solid black; */
     display: grid;
     grid-template-rows: 40% 15% 45% ;
     height: 270px ;   
 }
 .features2{
-    margin-top: 10px;
+    margin-top: 70px;
     /* border: 1px solid black; */
     display: grid;
     grid-template-rows: 40% 15% 45% ;
     height: 270px ;
 }
 .features3{
-    margin-top: 10px;
+    margin-top: 70px;
     /* border: 1px solid black; */
     display: grid;
     grid-template-rows: 40% 15% 45% ;
