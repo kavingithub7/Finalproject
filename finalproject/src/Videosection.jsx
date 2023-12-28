@@ -11,7 +11,7 @@ export default function Videosection()
         if (count1 <= 86) {
           setCount1(prevCount => prevCount + 1);
         }
-      }, 150);
+      }, 15);
       return () => clearTimeout(timerId);
     }, [count1]);
     useEffect(()=>{
@@ -21,7 +21,7 @@ export default function Videosection()
                 setcount2(count=>count+1)
             }
             
-        },50);
+        },8);
         return() =>clearTimeout(time)
     })
     useEffect(()=>
@@ -32,7 +32,7 @@ export default function Videosection()
             {  
                 setcount3(value=>value+1)
             }
-        }, 20);
+        }, 5);
         return()=>clearTimeout(time)
     })
     useEffect(()=>{
@@ -41,7 +41,7 @@ export default function Videosection()
              {
                 setcount4(prestate=>prestate+1)
              }          
-        },60);
+        },10);
         return ()=>clearTimeout(interval)
     })
     
