@@ -2,11 +2,11 @@
     border: 1px solid black;
     display: grid;
     height: 700px;
-    grid-template-rows: 75% 25%;
+    grid-template-rows: 75% 18%;
 }
 .youtube{
     display: grid;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-image: url(IMAGES/1520922384934.jpg);
     background-size: cover;
     justify-content: center;
@@ -25,7 +25,56 @@
     background-color: #e31374;
 }
 .clients{
-    border:  1px solid rgb(185, 29, 29);
+    /* border:  1px solid rgb(185, 29, 29); */
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 30px;
+    margin-top: 40px;
+  
+}
+.projectcompleted{
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    
+}
+.happyclients{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: 60% 40%;
+    
+}
+.designawards{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: 60% 40%;
+    
+}
+.cupsofcoffee{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+.cupicon{
+    /* border: 1px solid black; */
+}
+.cupcontent{
+    /* border: 1px solid black; */
+}
+.coffeeicon{
+    
+    margin-left: 40%;
+}
+.countnumber{
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #346da7;
+}
+.cupcontentline{
+    text-align: center;
+    margin-left: 40PX;
+    margin-top: -10px;
 }

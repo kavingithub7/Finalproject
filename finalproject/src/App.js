@@ -24,7 +24,7 @@ function App() {
       <Advancesection/>
       <Whyisbestsection/>
       <Videosection/>
-      <Videosection/>
+      
       
     
       
