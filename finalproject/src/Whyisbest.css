@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 33% 67%;
     height: 680px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
   .whyisbestimage{
     background-image: url(IMAGES/why-best.png);
@@ -18,7 +18,7 @@
     grid-template-rows: 30% 21% 9% 25%;
   }
   .whyisbestheader{
-    border: 1px solid rosybrown;
+    /* border: 1px solid rosybrown; */
     margin-top: 100px;
     margin-left: 150px;
     font-weight: 400;

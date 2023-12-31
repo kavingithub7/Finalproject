@@ -1,0 +1,68 @@
+.Pricingsection{
+    height: 900px;
+    display: grid;
+    border: 1px solid black;
+    background-color: rgb(251, 251, 251);
+    grid-template-rows: 40% 60%;
+}
+.pricing-header{
+    border: 1px solid black;
+    margin-top: 100px;
+    text-align: center;
+}
+.forpricing-header{
+    font-weight: 495;
+    color: #545454;
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.forpricing-line{
+    border-top: 3px solid #aa0919;
+    width: 6%;
+    margin-left: 47%;
+ }
+ .forpricing-paragarph{
+    margin-left: 25px;
+    margin-top: -10px;
+ }
+ .button-monthly{
+    width: 159px;
+    height: 32px;
+    margin-top: 60px;
+    background-color: rgb(246, 244, 244);
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+    text-align: center;
+    border-radius: 10px;
+    border-color: transparent;
+ }
+ .button-yearly{
+    border-color: transparent;
+    margin-left: 40px;
+    width: 159px;
+    height: 32px;
+    margin-top: 60px;
+    background-color:rgb(246, 244, 244);
+    color: black;
+    font-size: smaller;
+    border-radius: 10px;
+ }
+ .button-yearly:hover, .button-monthly:hover{
+    color:white;
+    background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545);
+ }
+.button-monthly:focus{
+    background-color:  rgb(99, 45, 45);
+    color: white;
+    border-color: rgb(189, 230, 230);
+}
+.button-yearly:focus{
+    background-color:  rgb(99, 45, 45);
+    color: white;
+    border-color: rgb(189, 230, 230);
+
+}
+.pricing-content{
+    border: 1px solid black;
+}

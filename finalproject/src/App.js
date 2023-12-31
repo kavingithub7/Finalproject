@@ -13,7 +13,10 @@ import './Whyisbest.css';
 import Whyisbestsection from './Whyisbest';
 import Videosection from './Videosection';
 import './Videosection.css';
-
+import Easyandsecuresection from './Easyandsecuresection';
+import './Easyandsecuresection.css';
+import Pricingsection from './Pricingsection';
+import './Pricingsection.css';
 
 function App() {
   return (
@@ -24,7 +27,8 @@ function App() {
       <Advancesection/>
       <Whyisbestsection/>
       <Videosection/>
-      
+      <Easyandsecuresection/>
+      <Pricingsection/>
       
     
       

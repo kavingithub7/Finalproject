@@ -1,8 +1,8 @@
 .videosection{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: grid;
-    height: 700px;
-    grid-template-rows: 75% 18%;
+    height: 800px;
+    grid-template-rows: 75% 18% ;
 }
 .youtube{
     display: grid;
