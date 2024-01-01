@@ -1,12 +1,12 @@
 .Pricingsection{
     height: 900px;
     display: grid;
-    border: 1px solid black;
-    background-color: rgb(251, 251, 251);
+    /* border: 1px solid black; */
+    background-color: rgb(250, 250, 250);
     grid-template-rows: 40% 60%;
 }
 .pricing-header{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 100px;
     text-align: center;
 }
@@ -39,7 +39,7 @@
  }
  .button-yearly{
     border-color: transparent;
-    margin-left: 40px;
+    margin-left: 10px;
     width: 159px;
     height: 32px;
     margin-top: 60px;
@@ -64,5 +64,77 @@
 
 }
 .pricing-content{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 30% 25% 25%;
+    margin-bottom: 70px;
+    column-gap: 80px;
 }
+.managedwrodpress{
+    margin-left: 80px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+ }
+ 
+.sharedhosting{
+    text-align: center;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+}
+.vpshosting{
+    text-align: center;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+.wordpress-header{
+    margin-top: 90px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+   
+}
+.wordpress-line{
+    border-top: 3px solid #aa0919;
+    width: 37%;
+    margin-left: 30.7%;
+}
+.wordpress-price{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.list{
+    list-style-type: none;
+    margin-left: -20px;
+   line-height: 29px;
+}
+.wordpress-list{
+    margin-top: 40px;
+    font-weight: 500;
+    color: black;
+}
+.startbuilding-button{
+    margin-top: 8px;
+    width: 200px;
+    height: 35px;
+    font-size: small;
+    border-radius: 10px;
+    color:white;
+    background-color: #cc4282;
+    border-color: transparent;
+}
+.startbuilding-button:hover{
+    background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545);
+}
+.sharedhosting-line{
+    border-top: 3px solid #aa0919;
+    width: 37%;
+    margin-left: 30.9%;
+}
+.vpshosting-line{
+    border-top: 3px solid #aa0919;
+    width: 27.8%;
+    margin-left: 36%;
+
+}
+
