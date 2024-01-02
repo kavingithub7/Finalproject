@@ -1,0 +1,107 @@
+.Designer{
+    display: grid;
+    grid-template-rows: 20% 45% 10%;
+    height: 650px;
+    /* border: 1px solid black; */
+}
+.designer-content{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.designer-image{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 15px;
+    padding-left: 150px;
+}
+.designer-title{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 15px;
+    padding-left: 150px;
+}
+.name1,.name2,.name3,.name4{
+    /* border: 1px solid black; */
+    text-align: center;
+    background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545);
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.image1{
+    /* border: 1px solid black; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url(IMAGES/team-1.jpg);
+    background-size: cover;
+}
+.image1:hover,.image2:hover,.image3:hover,.image4:hover{
+    /* animation: myAnimhover 1s ease 0s 1 normal forwards; */
+    .desginer-icon{
+        display: block;
+    }
+    opacity: 0.5;
+    
+
+}
+.image2{
+    /* border: 1px solid black; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url(IMAGES/team-2.jpg);
+    background-size: cover;
+}
+.image3{
+    /* border: 1px solid black; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url(IMAGES/team-3.jpg);
+    background-size: cover;
+}
+.image4{
+    /* border: 1px solid black; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url(IMAGES/team-2.jpg);
+    background-size: cover;
+}
+.forpricing-header{
+    font-weight: 495;
+    color: #545454;
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.forpricing-line{
+    border-top: 3px solid #aa0919;
+    width: 6%;
+    margin-left: 47%;
+ }
+ .role{
+    letter-spacing: 2px;
+ }
+ .desginer-icon{
+    margin-top: 240px;
+    padding-left: 40px;
+    color: white;
+    display: none;
+}
+.wb-icon{
+    margin-left:5px;
+}
+.in-icon{
+    margin-left: 5px;
+}
+.tt-icon{
+    margin-left: 5px;
+}
+.tt-icon:hover,.in-icon:hover,.fb-icon:hover,.wb-icon:hover{
+    margin-right: 10px;
+    color: #c11b69;
+    margin-left: 10px;
+}
+a:link{
+    text-decoration: none;
+color: aliceblue;}
