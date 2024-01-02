@@ -1,0 +1,12 @@
+.images{
+    height: 300px;
+    width: 200px;
+    background-image: url(IMAGES/team-1.jpg);
+    background-size: cover;
+    margin-left: 100px;
+   
+}
+.whole{
+ height: 400px;
+ width: 500px;
+}

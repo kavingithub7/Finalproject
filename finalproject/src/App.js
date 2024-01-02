@@ -17,6 +17,10 @@ import Easyandsecuresection from './Easyandsecuresection';
 import './Easyandsecuresection.css';
 import Pricingsection from './Pricingsection';
 import './Pricingsection.css';
+import Meetourteam from './Meetourteam';
+import './Meetourteam.css';
+import Demo from './Demo';
+import './Demo.css';
 
 function App() {
   return (
@@ -29,6 +33,8 @@ function App() {
       <Videosection/>
       <Easyandsecuresection/>
       <Pricingsection/>
+      <Meetourteam/>
+      <Demo/>
       
     
       

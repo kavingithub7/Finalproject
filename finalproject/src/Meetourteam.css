@@ -1,0 +1,82 @@
+.meetourteam{
+    border: 1px solid black;
+    display: grid;
+    height: 800px;
+    grid-template-rows: 30% 50%;
+}
+.meetourteam-header{
+    border: 1px solid #000000;
+    margin-top: 100px;
+    text-align: center;
+    color: #2c2e30;
+}
+.meetourteam-line{
+    border-top: 3px solid #aa0919;
+    width: 6%;
+    margin-left: 46.7%;
+ }
+.meetourteam-cards{
+    border: 1px solid black;
+}
+.meetourteam-cards{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    border: 1px solid black;
+    column-gap: 35px;
+    padding-left: 120px;
+   
+}
+.card1,.card2,.card3,.card4{
+   border: 1px solid black;
+    display: grid;
+    grid-template-rows: 78% 22%;
+  
+}
+.card1-image{
+    color: #c11b69;
+    border: 1px solid black;
+    background-image: url(IMAGES/team-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    
+}
+.card2-image{
+    background-image: url(IMAGES/team-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card3-image{
+    background-image: url(IMAGES/team-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card4-image{
+    background-image: url(IMAGES/team-3.jpg)! important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card1-title,.card2-title,.card3-title,.card4-title{
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    background:linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card2-header{
+    margin-top: 15px;
+    font-weight: 500;
+}
+.card2-role{
+    margin-top: -2px;
+    letter-spacing: 2px;
+}

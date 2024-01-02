@@ -2,6 +2,7 @@
    /* border: 1px solid black;    */
     position: fixed;
     width: 100%;
+    z-index: 1000;
 }
 .forappizeicon{
     color: white
