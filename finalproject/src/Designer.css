@@ -1,26 +1,27 @@
 .Designer{
     display: grid;
-    grid-template-rows: 20% 45% 10%;
+    grid-template-rows: 30% 45% 15%;
     height: 650px;
     /* border: 1px solid black; */
 }
 .designer-content{
     /* border: 1px solid black; */
     text-align: center;
+    padding-top: 100px;
 }
 .designer-image{
     /* border: 1px solid black; */
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    column-gap: 15px;
-    padding-left: 150px;
+    grid-template-columns: 22% 22% 22% 22%;
+    column-gap : 20px;
+    padding-left: 90px;
 }
 .designer-title{
     /* border: 1px solid black; */
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    column-gap: 15px;
-    padding-left: 150px;
+    grid-template-columns: 22% 22% 22% 22%;
+    column-gap: 20px;
+    padding-left: 90px;
 }
 .name1,.name2,.name3,.name4{
     /* border: 1px solid black; */
@@ -81,12 +82,15 @@
  }
  .role{
     letter-spacing: 2px;
+    margin-top: -6px;
+
  }
  .desginer-icon{
     margin-top: 240px;
-    padding-left: 40px;
+    text-align: center;
     color: white;
     display: none;
+
 }
 .wb-icon{
     margin-left:5px;
@@ -105,3 +109,17 @@
 a:link{
     text-decoration: none;
 color: aliceblue;}
+.designer-name{
+    margin-top: 20px;
+}
+.designre-wpicon{
+    border: 1px solid black;
+    width: 35px;
+    height:35px;
+    border-radius: 17.5px;
+    text-align: center;
+    border-width: 3px;
+}
+.w2b-icon{
+    margin-top:2px;
+}
