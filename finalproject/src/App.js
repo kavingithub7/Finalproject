@@ -33,8 +33,7 @@ function App() {
       <Videosection/>
       <Easyandsecuresection/>
       <Pricingsection/>
-      <Meetourteam/>
-      <Demo/>
+      
       
     
       
