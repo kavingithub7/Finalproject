@@ -13,6 +13,7 @@ function ControlledCarousel() {
   return (
     <div className='maincontainre'>
     <Carousel activeIndex={index} onSelect={handleSelect}>
+      
       <Carousel.Item>
       <img className='img' src={Image1} text="Third slide" />
         <Carousel.Caption className='textinncrs'>

@@ -25,6 +25,11 @@ import ControlledCarousel from './Chat';
 import './Chat.css';
 import Usechat from './Usechat';
 import Multi from './Multi';
+import Letsblog from './Letsblog';
+import './Letsblog.css';
+import './Multi.css';
+import Frequently from './Frequentlysection';
+import './Frequently.css';
 
 function App() {
   return (
@@ -38,10 +43,8 @@ function App() {
       <Easyandsecuresection/>
       <Pricingsection/>
       <Designer/>
-      {/* <Testominal/> */}
-      {/* <ControlledCarousel/> */}
-      <Usechat/>
-      <Multi/>
+      <Letsblog/>
+      <Frequently/>
       
       
     

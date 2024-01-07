@@ -2,9 +2,8 @@
     display: grid;
     grid-template-columns: 50% 50%;
     /* border: 1px solid black; */
-    height: 591.6px;
+    height: 593px;
     background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
-    /* background-color: aqua; */
 }
 .homesection1{
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
