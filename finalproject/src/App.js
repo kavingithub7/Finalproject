@@ -19,6 +19,12 @@ import Pricingsection from './Pricingsection';
 import './Pricingsection.css';
 import Designer from './Designer';
 import './Designer.css';
+import Testominal from './Testominal';
+import ControlledCarousel from './Chat';
+// import './Testominal.css';
+import './Chat.css';
+import Usechat from './Usechat';
+import Multi from './Multi';
 
 function App() {
   return (
@@ -32,6 +38,10 @@ function App() {
       <Easyandsecuresection/>
       <Pricingsection/>
       <Designer/>
+      {/* <Testominal/> */}
+      {/* <ControlledCarousel/> */}
+      <Usechat/>
+      <Multi/>
       
       
     

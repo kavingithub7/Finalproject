@@ -1,13 +1,13 @@
 .Designer{
     display: grid;
     grid-template-rows: 30% 45% 15%;
-    height: 650px;
+    height: 700px;
     /* border: 1px solid black; */
 }
 .designer-content{
     /* border: 1px solid black; */
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .designer-image{
     /* border: 1px solid black; */

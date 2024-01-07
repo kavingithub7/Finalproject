@@ -1,0 +1,30 @@
+.maincontainre{
+    border:  1px solid black;
+    width: 100%;
+    height:  1000px
+}
+.img{
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 200px;
+    margin-left: 100px;
+    
+    
+}
+.textinncrs{
+    border: 1 px solid black;
+    height: 200px;
+    color: black;
+    margin-top: 200px;
+
+}
+
+
+
+
+
+
+
+

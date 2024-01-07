@@ -1,0 +1,16 @@
+.testominalsection{
+    display: grid;
+    height: 800px;
+    grid-template-rows: 30% 20% 50%;
+    border: 1px solid black;
+}
+.testominal-carousel{
+    border: 1px solid black
+}
+.testominal-names{
+    border: 1px solid black
+
+}
+.testominal-header{
+    border: 1px solid black
+}
