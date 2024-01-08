@@ -11,9 +11,9 @@ export default function Frequently ()
             <div className="frequently-content">
                 <div className="frequently-dropdowns">
 
-    <Accordion defaultActiveKey={['0']} alwaysOpen>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>1. Sedeiusmod tempor inccsetetur aliquatraiy?</Accordion.Header>
+    <Accordion  defaultActiveKey={['0']} alwaysOpen>
+      <Accordion.Item  eventKey="0">
+        <Accordion.Header ><span className='accordion-header'> 1. Sedeiusmod tempor inccsetetur aliquatraiy?</span> </Accordion.Header>
         <Accordion.Body className='accordion-paragarph'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -24,7 +24,7 @@ export default function Frequently ()
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>2. Lorem ipsum dolor, consectetur pisicing elit?</Accordion.Header>
+        <Accordion.Header> <span className='accordion-header'>2. Lorem ipsum dolor, consectetur pisicing elit?</span></Accordion.Header>
         <Accordion.Body className='accordion-paragarph'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -35,7 +35,7 @@ export default function Frequently ()
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
-        <Accordion.Header>3. Tempor inccsetetur aliquatraiy?</Accordion.Header>
+        <Accordion.Header> <span className='accordion-header'>3. Tempor inccsetetur aliquatraiy?V</span></Accordion.Header>
         <Accordion.Body className='accordion-paragarph'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -46,7 +46,7 @@ export default function Frequently ()
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
-        <Accordion.Header>4. Consectetur adipisicing elit,eiusmod tempor? </Accordion.Header>
+        <Accordion.Header> <span className='accordion-header'>4. Consectetur adipisicing elit,eiusmod tempor?</span> </Accordion.Header>
         <Accordion.Body className='accordion-paragarph'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -58,7 +58,7 @@ export default function Frequently ()
       </Accordion.Item>
     
     </Accordion>
-
+<p className='forappizenameandicon'></p>
                 </div>
                 <div className="frequently-images"></div>
             </div>

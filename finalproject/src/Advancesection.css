@@ -137,9 +137,8 @@
             margin-left: 110px;
             color: #000000;
             font-size: large;
-          
-
-        }
+            /* font-weight: 500; */
+}
         .security-text1{
             font-size: 14px;
             margin-left: 10px;

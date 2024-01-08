@@ -45,7 +45,7 @@
     /* border: 1px solid rgb(194, 17, 17); */
   }
   .googlestorebutton{
-    border: 1px solid black;
+    border-width: 1.5px;
     border-radius: 10px;
     width: 180px;
     background-color: transparent;
@@ -57,13 +57,13 @@
     font-size: small;
   }
   .applestorebutton{
-    /* border: 1px solid rgb(63, 59, 59); */
+    border-width: 1.5px;
     border-radius: 10px;
     width: 180px;
     background-color: transparent;
-    color: rgb(10, 8, 8);
+    /* color: rgb(10, 8, 8); */
     margin-left: 20px;
-    color:black
+    color:black;
   }
   .applestorefont{
     font-size: small;
