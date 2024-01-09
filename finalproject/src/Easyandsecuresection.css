@@ -11,6 +11,10 @@
     background-size: contain;
     margin-left: 90px;
     background-repeat: no-repeat;
+    transition: transform 2s;
+}
+.easy-image:hover{
+    transform: rotateY(360deg);
 }
 .easy-content{
 

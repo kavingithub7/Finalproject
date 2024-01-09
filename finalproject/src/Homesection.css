@@ -88,4 +88,42 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+/* media quary for below 767 px width */
+
+@media screen and (max-width: 576px) {
+    .forhomesction {
+        grid-template-columns: 100%; /* Change the grid layout for smaller screens */
+        height: auto; /* Let the height adjust to the content */
+        width: 148%;
+    }
+    .forheaderlinetwo{
+    margin-left: 492px;
+    margin-top: -71px;
+    }
+    .forcontentline3{
+        font-size: medium;
+         margin-left: 55px;
+         font-size: 24px;
+     }
+     .forcontentline2{
+         font-size: medium;
+         margin-left: 55px;
+         font-size: 24px;
+     }
+     .forcontentline1{
+         font-size: 24px;
+         margin-left: 55px;
+      
+     }
+     .forhomecontent{
+         text-align: left;
+         line-height: 27px;
+         margin-top: 10px;
+     }
+     .forhomebutton{
+        margin-left: -531px;
+     }
+    
+}
+
 

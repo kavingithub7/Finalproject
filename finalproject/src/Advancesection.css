@@ -35,6 +35,10 @@
     /* border: 1px solid black; */
     margin-left: 90px;
     margin-right: 10px;
+    transition: transform 2s;
+}
+.advance-image:hover{
+    transform: rotate(360deg);
 }
 /* for right side content */
 .advance-specification2{

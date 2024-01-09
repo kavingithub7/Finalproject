@@ -43,7 +43,7 @@
     .desginer-icon{
         display: block;
     }
-    opacity: 0.5;
+    /* opacity: 0.5; */
     
 
 }
@@ -86,10 +86,16 @@
 
  }
  .desginer-icon{
-    margin-top: 240px;
+    padding-top: 240px;
     text-align: center;
     color: white;
     display: none;
+    width: 100%;
+    height: 315px;
+    background-color:#c11b69;
+    opacity: .4;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 
 }
 .wb-icon{
@@ -103,7 +109,7 @@
 }
 .tt-icon:hover,.in-icon:hover,.fb-icon:hover,.wb-icon:hover{
     margin-right: 10px;
-    color: #c11b69;
+    color: transparent;
     margin-left: 10px;
 }
 a:link{

@@ -19,7 +19,7 @@ export default function Headersection()
             <span className='forappizefont'>Appize</span> */}
             <p className='forappizenameandicon' ></p>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle className='nave-toggleicon' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home"className='forlinkcolor'>Home</Nav.Link>

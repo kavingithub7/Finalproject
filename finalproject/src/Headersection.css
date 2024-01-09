@@ -11,8 +11,9 @@
     color: black;
     background-size: contain;
     margin-top: 2px;
+    
 }
-`.forappizeicon{
+.forappizeicon{
     color: white
     
 }
@@ -43,6 +44,25 @@
 .forlinkcolor:hover
 {
     color: rgb(169, 147, 128);
+}
+/* media quary for below 768 */ 
+@media screen and (max-width : 576px) {
+    .me-auto{
+        /* 385 */
+        margin-left: -100px;
+        font-family: 'Poppins', sans-serif, "proxima-nova", "Helvetica Neue", Helvetica, Arial;
+        font-weight: 200;
+    }
+    .forappizenameandicon{
+        margin-left: -100px;
+        width: 200px;
+        height: 50px;
+
+    }
+    .nave-toggleicon{
+        margin-left: 10px;
+    }
+  
 }
 
 

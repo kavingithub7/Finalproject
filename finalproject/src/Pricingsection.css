@@ -88,8 +88,11 @@
     background-color: white;
     /* border: 1px solid black; */
 }
+.hosting-icons{
+    margin-top: 40px;
+}
 .wordpress-header{
-    margin-top: 90px;
+  
     color: rgb(0, 0, 0);
     font-weight: 500;
    

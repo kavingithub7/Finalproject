@@ -31,7 +31,6 @@
     grid-template-columns: 30% 30% 30%;
     column-gap: 30px;
     padding-left: 63px;
-    
 }
 .lestblogcard-1{
 
@@ -51,24 +50,51 @@
    display: grid;
    grid-template-rows: 50% 50%;
 }
-.cards-image1{
-    /* border: 1px solid black; */
+.cards-image1 {
     background-image: url(IMAGES/1.jpg);
     background-size: cover;
-    display: block;
-    transition: filter 0.5s ease;
+    display: block;   
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative; /* Ensure positioning context for absolute positioning */
+    transition: transform 2s;
+}
+
+.for-effect {
+    position: absolute; /* Position relative to the .cards-image1 */
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #c11b69;
+    opacity: .4;
+    transition: width 2s, height 2s;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.cards-image1:hover{
-    filter: brightness(0.7) sepia(1) hue-rotate(320deg);
+
+.lestblogcard-1:hover .for-effect {
+    width: 100%;
+    height: 245px;
+   
 }
+
+.cards-image1:hover{
+    transform: rotateY(360deg);
+}
+
 .cards-image2{
     /* border: 1px solid black; */
     background-image: url(IMAGES/2.jpg);
     background-size: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    position: relative; 
+    transition: transform 2s;
+}
+.lestblogcard-2:hover .for-effect{
+    width: 100%;
+    height: 245px;  
 }
 .cards-image3{
     /* border: 1px solid black; */
@@ -76,6 +102,14 @@
     background-size: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    position: relative; 
+}
+.lestblogcard-3:hover .for-effect{
+    width: 100%;
+    height: 245px;  
+}
+.cards-image3:hover{
+    transform: rotateY(360deg);
 }
 .cards-header{
     background-color:rgb(255, 255, 255);

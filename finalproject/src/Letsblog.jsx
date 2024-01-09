@@ -8,7 +8,9 @@ export default function Letsblog()
             </div>
             <div className="letsblog-cards">
                 <div className="lestblogcard-1">
-                    <div className="cards-image1"></div>
+                    <div className="cards-image1">
+                    <div className="for-effect"></div>
+                    </div>
                     <div className="cards-header">
                         <h5 className="cards-headercontent">How often should you tweet?</h5>
                        <p className="cards-line1">Lorem ipsum dolor sit amet, consectetur</p>
@@ -22,7 +24,9 @@ export default function Letsblog()
 
                 </div>
                 <div className="lestblogcard-2">
-                <div className="cards-image2"></div>
+                <div className="cards-image2">
+                <div className="for-effect"></div>
+                </div>
                     <div className="cards-header">
                         <h5 className="cards-headercontent">Content is still king</h5>
                        <p className="cards-line1">Lorem ipsum dolor sit amet, consectetur</p>
@@ -35,7 +39,9 @@ export default function Letsblog()
                     </div>
                 </div>
                 <div className="lestblogcard-3">
-                <div className="cards-image3"></div>
+                <div className="cards-image3">
+                <div className="for-effect"></div>
+                </div>
                     <div className="cards-header">
                         <h5 className="cards-headercontent">Social media at work</h5>
                        <p className="cards-line1">Lorem ipsum dolor sit amet, consectetur</p>
