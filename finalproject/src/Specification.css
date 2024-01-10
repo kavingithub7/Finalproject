@@ -81,3 +81,50 @@
 .features3:hover,.features2:hover,.features1:hover{
     background-color: white
 }
+/* @media screen and (max-width: 576px){
+    .specification{
+        grid-template-rows: 30%;
+        width: 148%;
+        height: auto;
+        padding-bottom: 219px;
+
+    }
+    .forheader{
+        font-size: 50px;
+
+    }
+    .forparagarph{
+          font-size: 21px;
+          height: auto;
+    }
+    .specificationcontent
+{
+    display: grid;
+    grid-template-columns: 100%;
+    /* border: 1px solid black; */
+   /* text-align: center;
+   margin-top: -147px;
+   height: auto;
+} */
+/* .feature1logo{
+    margin-left: 0px;
+}
+.mobile-icons{
+    width: 88px;
+    height: 88px;
+}
+.feature1font{
+    font-size: 38px;
+}
+.contenlines{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.feature1content{
+    margin-top: 20px;
+} */
+/* .features3{
+    /* background-color: red; */
+  
+/* }
+}   */

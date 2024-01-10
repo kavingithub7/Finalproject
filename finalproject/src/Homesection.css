@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     /* border: 1px solid black; */
-    height: 593px;
+    height: 700px;
     background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
 }
 .homesection1{
@@ -26,15 +26,17 @@
     color: black;
     text-align: left;
     margin-left: 55px;
-    font-size: 3.5rem;
+    font-size: 50px;
     color: white;
+    font-weight: 700;
 }
 .forheaderlinetwo{
     color: black;
     text-align: left;
     margin-left: 55px;
-    font-size: 3.5rem;
+    font-size: 50px;
     color: white;
+    font-weight: 700;
     margin-top: -10px;
 }
 .forcontentline3{
@@ -90,11 +92,12 @@
 }
 /* media quary for below 767 px width */
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
     .forhomesction {
-        grid-template-columns: 100%; /* Change the grid layout for smaller screens */
-        height: auto; /* Let the height adjust to the content */
+        grid-template-columns: 100%; 
+        height: auto; 
         width: 148%;
+        padding-bottom: 100px;
     }
     .forheaderlinetwo{
     margin-left: 492px;
@@ -124,6 +127,59 @@
         margin-left: -531px;
      }
     
+} */
+@media screen and (max-width : 320px){
+    .forhomesction{
+        width: 266%;
+        grid-template-columns: 100%;
+        height: auto;
+        background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
+    }
+    .forhomeheader{
+        margin-top: 300px;
+    }
+    .forheaderlineone{
+        font-size: 91px;
+    }
+    .forheaderlinetwo{
+        font-size: 91px;
+    }
+    
+    .forhomecontent{
+        line-height: 45px;
+        line-break: auto;
+        margin-top: 40px;
+    }
+    .forcontentline1{
+        font-size: 27px;
+    
+    }
+    .forcontentline2{
+        font-size: 26px;
+    }
+    .forcontentline3{
+        font-size: 27px;
+    }
+    .forhomebutton{
+        margin-left: -544px;
+        margin-top: 60px;
+        height: 15%;
+    }
+    .forbuttonstyle{
+        border-radius: 12px;
+        width: 26%;
+        height: 50%;
+        margin-left: 208px;
+        font-weight: 60;
+        text-align: center;
+        font-size: larger;
+        background-color: transparent;
+        color: white;
+        border-color: azure;
+        border-width: 1.5px;
+        
+    }
+
 }
 
 

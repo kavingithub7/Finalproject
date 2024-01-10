@@ -19,38 +19,38 @@ import Pricingsection from './Pricingsection';
 import './Pricingsection.css';
 import Designer from './Designer';
 import './Designer.css';
-import Testominal from './Testominal';
-import ControlledCarousel from './Chat';
 // import './Testominal.css';
-import './Chat.css';
-import Usechat from './Usechat';
-import Multi from './Multi';
 import Letsblog from './Letsblog';
 import './Letsblog.css';
 import './Multi.css';
 import Frequently from './Frequentlysection';
 import './Frequently.css';
+import { Route, Routes } from 'react-router-dom';
+import Allsection from './Allsections';
+
 
 function App() {
   return (
     <div className="App">
-      <Headersection/>
-      <Homesection/>
-      <Specificationsection/>
-      <Advancesection/>
-      <Whyisbestsection/>
+      <Routes>
+     <Route path='/'element={<Allsection/>}> 
+     {/* <Route path="/homesection" element={<Allsection/>}/>  */}
+     <Route path='/specification' element={<Specificationsection/>} />
+     <Route path="/feature" element={<Advancesection/>}/> 
+     <Route path="/whyisbest" element={<Whyisbestsection/>}  />
+     <Route path='/pricing' element={<Pricingsection/>}/>
+      </Route>
+      </Routes>
+     
+      {/* <Whyisbestsection/>
       <Videosection/>
       <Easyandsecuresection/>
       <Pricingsection/>
       <Designer/>
       <Letsblog/>
-      <Frequently/>
+      <Frequently/> */}
       
-      
-    
-      
-    
-  </div>
+   </div>
   );
 }
 

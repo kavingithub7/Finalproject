@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Homesection from './Homesection';
+import { Link, Outlet } from 'react-router-dom';
 export default function Headersection()
 {
    return(
@@ -22,18 +23,19 @@ export default function Headersection()
         <Navbar.Toggle className='nave-toggleicon' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home"className='forlinkcolor'>Home</Nav.Link>
-            <Nav.Link href="#link"className='forlinkcolor'>Features</Nav.Link>
-            <Nav.Link href="#link"className='forlinkcolor'>WhyisBest</Nav.Link>
-            <Nav.Link href="#link"className='forlinkcolor'>Pricing</Nav.Link>
+            <Nav.Link as={Link} to="/" className='forlinkcolor'>Home</Nav.Link>
+            <Nav.Link as={Link} to="/feature"     className='forlinkcolor'>Features</Nav.Link>
+            <Nav.Link as={Link} to="/whyisbest"   className='forlinkcolor'>WhyisBest</Nav.Link>
+            <Nav.Link as={Link} to="/pricing"     className='forlinkcolor'>Pricing</Nav.Link>
             <Nav.Link href="#link"className='forlinkcolor'>Testimonials</Nav.Link>
             <Nav.Link href="#link"className='forlinkcolor'>Contact</Nav.Link>
           </Nav>
+   
         </Navbar.Collapse>
       </Container>
     </Navbar>
  </div>
-
+<Outlet/>
  </div>
    ) 
 }

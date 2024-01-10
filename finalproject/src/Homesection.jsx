@@ -5,7 +5,7 @@ export default function Homesection()
             <div className="homesection1">
                 <div className="forhomeheader">
                     <h1 className="forheaderlineone"> Samsung Galaxy </h1>
-                             <h1 className="forheaderlinetwo">  Note 10 + </h1>
+                             <h1 className="forheaderlinetwo">  Note 10+ </h1>
                             </div>
                 <div className="forhomecontent">
                     <span className="forcontentline1">Our mission is to help you do the impossible. We’re engineers.</span><br/>

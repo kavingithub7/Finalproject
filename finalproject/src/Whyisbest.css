@@ -1,9 +1,9 @@
 .whyisbest{
-    display: grid;
-    grid-template-columns: 33% 67%;
-    height: 680px;
-    /* border: 2px solid black; */
-  }
+  display: grid;
+  grid-template-columns: 33% 67%;
+  height: 680px;
+  /* border: 2px solid black; */
+}
   .whyisbestimage{
     background-image: url(IMAGES/why-best.png);
     background-size: contain;
@@ -75,3 +75,17 @@
   .forgoogleicon:hover{
     color: white;
   }
+  /* @media screen and (max-width: 576px){
+    .whyisbest{
+      grid-template-columns: 100%;
+      height: auto;
+      width: 148%;
+    
+    }
+    .whyisbestimage{
+      width: 265%;
+      height: 659px;
+     margin-bottom: 200px;
+    }
+
+  } */
