@@ -7,7 +7,7 @@
 .forappizenameandicon{
     background-image: url(IMAGES/logo.png);
     width: 200px;
-    height: 50px;
+    height: 40px;
     color: black;
     background-size: contain;
     margin-top: 2px;
@@ -44,7 +44,7 @@
 }
 .forlinkcolor:hover
 {
-    color: rgb(169, 147, 128);
+    color: rgb(68, 68, 123);
 }
 /* media quary for below 768 */ 
 /* @media screen and (max-width : 576px) {

@@ -34,10 +34,9 @@ function App() {
     <div className="App">
       <Routes>
      <Route path='/'element={<Allsection/>}> 
-     {/* <Route path="/homesection" element={<Allsection/>}/>  */}
-     <Route path='/specification' element={<Specificationsection/>} />
+     <Route path="/homesection" element={<Homesection/>}/> 
      <Route path="/feature" element={<Advancesection/>}/> 
-     <Route path="/whyisbest" element={<Whyisbestsection/>}  />
+     <Route path="/whyisbest" element={<Whyisbestsection/>}/>
      <Route path='/pricing' element={<Pricingsection/>}/>
       </Route>
       </Routes>

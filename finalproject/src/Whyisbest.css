@@ -2,18 +2,18 @@
   display: grid;
   grid-template-columns: 33% 67%;
   height: 680px;
-  /* border: 2px solid black; */
+  /* border: 2px solid black;    */
 }
   .whyisbestimage{
     background-image: url(IMAGES/why-best.png);
     background-size: contain;
     background-repeat: no-repeat;
-    /* border:  1px solid red; */
+    /* border:  1px solid red;                   */
     margin-top: 100PX;
     margin-left: 70px;
   }
   .whyisbestcontent{
-    /* border: 1px solid black; */
+    /* border: 1px solid black;                 */
     display: grid;
     grid-template-rows: 30% 21% 9% 25%;
   }
@@ -32,41 +32,88 @@
   
   }
   .whyisbestparagraph{
-    /* border: 1px solid rgb(0, 0, 0);  */
+    /* border: 1px solid rgb(0, 0, 0);         */
     margin-top: 10px;
    margin-left:150px;
   }
   .whyisbestparagraph2{
-    /* border: 1px solid rgb(255, 4, 4);  */
+    /* border: 1px solid rgb(255, 4, 4);         */
     margin-left:150px;
   }
   .whyisbestbutton{
     margin-top: 2px;
-    /* border: 1px solid rgb(194, 17, 17); */
+    /* border: 1px solid rgb(194, 17, 17);           */
+    display: grid;
+    grid-template-columns: 40% 40%;
   }
-  .googlestorebutton{
-    border-width: 1.5px;
-    border-radius: 10px;
-    width: 180px;
-    background-color: transparent;
-    margin-left: 150px;
+
+
+  /* the below code is for button  */
+  .whyisbest-btn1{
+    width: 200px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 20% 50%;
+    justify-content: center;
+    align-items: center;
     margin-top: 30px;
-    color: black;
-  }
-  .googlestorefont{
-    font-size: small;
-  }
-  .applestorebutton{
-    border-width: 1.5px;
+    margin-left: 150px;
+    border-width: .5px;
     border-radius: 10px;
-    width: 180px;
+    color: rgb(0, 0, 0);
     background-color: transparent;
-    /* color: rgb(10, 8, 8); */
-    margin-left: 20px;
-    color:black;
+    column-gap: 12px;
   }
-  .applestorefont{
-    font-size: small;
+  .whyisbest-btn2{
+    width: 200px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 20% 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 35px;
+    border-width: .5px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    column-gap: 12px;
+  }
+  
+  .whyisbest-btn1:hover{
+    background-color: #e31374;
+    color: white;
+  }
+  .whyisbest-btn2:hover{
+    background-color: #e31374;
+    color: white;
+  }
+  .whyisbest-btn-log1{
+    margin-top: -5px;
+  }
+  .whyisbest-btn-log2{
+    margin-top: -5px;
+  }
+  .whyisbest-btn-content1{
+    padding-top: 5px;
+    height: auto;
+    text-align: left;
+   
+  }
+  .whyisbest-btn-content2{
+    padding-top: 5px;
+    height: auto;
+    text-align: left;
+  }
+  .apple-store-font1{
+    font-size: 11px;
+    
+    /* font-weight: 500; */
+  }
+  .apple-store-font2{
+    margin-top: -7px;
+    font-size: medium; 
+    /* font-weight: 500; */
   }
   .googlestorebutton:hover,.applestorebutton:hover{
     background-color: #e31374;
