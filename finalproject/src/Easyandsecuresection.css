@@ -37,15 +37,15 @@
     }
     .easy-icon{
         /* border: 1px solid black; */
-        height: 40px;
-        width: 40px;
-        border-radius: 7px;
+        height: 45px;
+        width: 45px;
+        border-radius: 10px;
         background-color: #bf2b70;
-        margin-top: -70px;
+        margin-top: -75px;
     }
     .sandwatch-icon{
-        margin-top: 6.7px;
-        margin-left: 6.5px;
+        margin-top: 9px;
+        margin-left: 9px;
         color: white;
     }
     .secure-content1{
