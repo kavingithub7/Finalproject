@@ -109,7 +109,7 @@
 }
 .tt-icon:hover,.in-icon:hover,.fb-icon:hover,.wb-icon:hover{
     margin-right: 10px;
-    color: transparent;
+    /* color: transparent; */
     margin-left: 10px;
 }
 a:link{

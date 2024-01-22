@@ -26,7 +26,7 @@ export default function Headersection()
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/homesection" className='forlinkcolor'>Home</Nav.Link>
             <Nav.Link as={Link} to="/feature"     className='forlinkcolor'>Features</Nav.Link>
-            <Nav.Link as={Link} to="/whyisbest"   className='forlinkcolor'>WhyisBest</Nav.Link>
+            <Nav.Link as={Link} to="/whyisbest"   className='forlinkcolor'>Why is Best</Nav.Link>
             <Nav.Link as={Link} to="/pricing"     className='forlinkcolor'>Pricing</Nav.Link>
             <Nav.Link href="#link"className='forlinkcolor'>Testimonials</Nav.Link>
             <Nav.Link href="#link"className='forlinkcolor'>Contact</Nav.Link>

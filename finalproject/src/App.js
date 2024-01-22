@@ -27,11 +27,13 @@ import Frequently from './Frequentlysection';
 import './Frequently.css';
 import { Route, Routes } from 'react-router-dom';
 import Allsection from './Allsections';
-
+import Multislider from './Multislider';
+import './Multislider.css';
 
 function App() {
   return (
     <div className="App">
+      {/* <Multislider/> */}
       <Routes>
      <Route path='/'element={<Allsection/>}> 
      <Route path="/homesection" element={<Homesection/>}/> 
