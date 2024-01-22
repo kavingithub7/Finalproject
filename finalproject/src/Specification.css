@@ -128,3 +128,57 @@
   
 /* }
 }   */
+@media screen and (max-width : 320px){
+    .specification{
+        width: 280%;
+        grid-template-rows: 15%;
+        /* border: 3px solid rgb(204, 54, 54); */
+        height: auto;
+     
+    }
+    .specificationheader{
+        height: auto;
+    }
+    .forheader{
+        font-weight: 400;
+        color: #2c2e30;
+        font-size: 95px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    .forline{
+        border-top: 10px solid #aa0919;
+        width: 22%;
+        margin-left: 40%;
+     }
+    .specificationcontent{
+        grid-template-columns:100%;
+        
+    }
+    .features1,.features2,.features3{
+        margin-top: 70px;
+        /* border: 1px solid black; */
+        
+        height: auto ;   
+    }
+    .forparagarph{
+        font-size: 41px;
+        margin-left: 53px;
+    }
+  .mobile-icons{
+    width: 33%;
+    height: 171%;
+  }
+  .feature1header{
+    /* border: 1px solid balck; */
+    text-align: center;
+    color: #5b5f63;
+    font-size: 3.4rem;
+    margin-top: 94px;
+}
+.feature1content{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 39px;
+}
+}
