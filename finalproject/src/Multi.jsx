@@ -23,6 +23,10 @@ export default function Multi()
    const opacity=['0.5']
 return(
     <div className="multi">
+       <div className="screenshotheader">
+                <span className="for-ss-header">APP SCREENSHOOTS</span><br/>
+                <hr className="for-ss-line"></hr>
+                </div>
 <Carousel
   swipeable={true}
   draggable={true}
@@ -43,6 +47,8 @@ return(
   dotListClass={"custom-dot-list-style"}
   itemClass="carousel-item-padding-40-px"
 >
+ 
+ 
   <div className="app-img-1"></div>
   <div className="app-img-2" ></div>
   <div className="app-img-3"></div>
@@ -51,6 +57,7 @@ return(
   <div className="app-img-6" ></div>
   <div className="app-img-7"></div>
   <div className="app-img-8"></div>
+  
 </Carousel>
 
 </div>
