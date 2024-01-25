@@ -131,7 +131,7 @@
 } */
 @media screen and (max-width : 320px){
     .forhomesction{
-        width: 266%;
+        width: 307%;
         grid-template-columns: 100%;
         height: auto;
         background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);

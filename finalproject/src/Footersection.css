@@ -1,0 +1,29 @@
+.text-center-footer{
+    background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
+    margin-top: 50px;
+    height: 500px;
+   }
+   .subscribe-heading {
+       color: aliceblue;
+       margin-top: 50px;
+       text-transform: uppercase;
+       font-size:500px;
+   }
+   .newsletter{
+       margin-top: 50px;
+       margin-left: 400px;
+   }
+   .footer-email{
+     border: 2px solid  white;
+     border-radius: 20px;
+     height: 50px;
+   }
+   .copy-right {
+     text-align: center;
+   }
+   .copy-right a {
+     display: inline-block; 
+     margin-top: 10px; 
+   }
+   
+   

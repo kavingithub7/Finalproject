@@ -1,5 +1,96 @@
-.multi-carousel{
+.multi{
     width: 100%;
-    height: 500px;
-    border: 1ps solid black;
+    height: 700px;
+    border: 1px solid black;
+    padding-top: 100px;
+}
+.app-img-1{
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(126, 63, 63);
+    background-image: url(IMAGES/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+}
+.app-img-2{
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(126, 63, 63);
+    background-image: url(IMAGES/0.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+ 
+}
+.app-img-3{
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(126, 63, 63);
+    background-image: url(IMAGES/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+}
+.app-img-4{
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(126, 63, 63);
+    background-image: url(IMAGES/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+   
+}
+.app-img-5{
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(126, 63, 63);
+    background-image: url(IMAGES/3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+   
+}
+.app-img-6{
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(126, 63, 63);
+    background-image: url(IMAGES/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+
+}
+.app-img-7{
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(126, 63, 63);
+    background-image: url(IMAGES/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+ 
+}
+.app-img-8{
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(126, 63, 63);
+    background-image: url(IMAGES/4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+   
+}
+.dotListClass{
+    margin-top: 100px;
+
 }

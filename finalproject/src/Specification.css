@@ -130,7 +130,7 @@
 }   */
 @media screen and (max-width : 320px){
     .specification{
-        width: 280%;
+        width: 307%;
         grid-template-rows: 15%;
         /* border: 3px solid rgb(204, 54, 54); */
         height: auto;

@@ -29,6 +29,11 @@ import { Route, Routes } from 'react-router-dom';
 import Allsection from './Allsections';
 import Multislider from './Multislider';
 import './Multislider.css';
+import './Footersection.css';
+import './Join.css';
+import './Formsection.css';
+import './Screenshot.css';
+
 
 function App() {
   return (
