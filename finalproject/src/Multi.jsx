@@ -20,7 +20,7 @@ export default function Multi()
         }
 
     }
-   const opacity=['0.5']
+  
 return(
     <div className="multi">
        <div className="screenshotheader">
@@ -36,11 +36,11 @@ return(
   infinite={true}
   // autoPlay={this.props.deviceType !== "mobile" ? true : false}
   autoPlay={true}
-  autoPlaySpeed={2000}
+  autoPlaySpeed={3000}
   keyBoardControl={true}
   customTransition="all .5"
   transitionDuration={500}
-  currentslide={opacity}
+  // currentslide={opacity}
   containerClass="carousel-container"
   removeArrowOnDeviceType={["tablet", "mobile","desktop"]}
 //   deviceType={this.props.deviceType}
