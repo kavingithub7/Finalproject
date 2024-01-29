@@ -33,6 +33,7 @@ import './Footersection.css';
 import './Join.css';
 import './Formsection.css';
 import './Screenshot.css';
+import './Testominal.css';
 
 
 function App() {

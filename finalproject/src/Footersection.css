@@ -16,7 +16,15 @@
    .footer-email{
      border: 2px solid  white;
      border-radius: 20px;
+     border-top-right-radius: 20px;
      height: 50px;
+   }
+   .mb-3{
+     border: 1px solid white;
+     background-color: aliceblue;
+     border-radius: 40px;
+     overflow: hidden;
+     margin-left: -150px;
    }
    .copy-right {
      text-align: center;
@@ -25,5 +33,40 @@
      display: inline-block; 
      margin-top: 10px; 
    }
+   .btn-sub{
+    border: 1px solid black;
+    margin-left: -165px;
+    border-radius: 40px;  
+    margin-top: 2.5px;
+    width: 160px;
+    height: 45px;
+    padding-bottom: 5px;
+    background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545);
+   }
+   .btn-sub:hover{
+    background-color: #c11b69;
+   }
+   .social-icons{
+    margin-left: 480px;
+
+   }
    
+   .list-inline-item{
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color:transparent;
+    text-align: center;
+
+   }
+   .fb-icon-sub,.tt-icon-sub,.wb-icon-sub,.in-icon-sub{
+    color: white;
+    margin-top: 10px;
+   }
+   .list-inline-item:hover{
+    background-color:  #dc3545;
+
+   }
    

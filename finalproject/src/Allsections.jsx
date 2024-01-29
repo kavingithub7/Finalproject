@@ -12,6 +12,7 @@ import Multi from "./Multi";
 import Pricingsection from "./Pricingsection";
 import Screenshotsection from "./Screenshotsection";
 import Specificationsection from "./Specificationsection";
+import Testominal from "./Testominla";
 import Videosection from "./Videosection";
 import Whyisbestsection from "./Whyisbest";
 
@@ -35,6 +36,7 @@ export default function Allsection()
         <FormExample/>
         <Footer/>
         <Multi/>
+       <Testominal/>
         </>
     )
 }
