@@ -65,4 +65,71 @@ margin-left: 47%;
 .accordion-header:focus{
     color: rgb(18, 9, 56);
 }
+@media screen  and (max-width:320px){
 
+    
+
+    .frequently-section {
+        border: 1px solid black;
+        height: auto;
+        display: grid;
+        grid-template-rows: 20% 68%;
+        padding-top: 100px;
+        row-gap: 40px;
+        width: 400%;
+    }
+    .frequently-content {
+        /* border: 5px solid black; */
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 100px;
+        padding-left: 100px;
+        padding-top: 20px;
+        height: auto;
+    }
+    .frequently-heading {
+        font-weight: 495;
+        color: #545454;
+        font-size: 70px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    .frequently-paragraph {
+        word-spacing: 0.3px;
+        font-size: 25px;
+    }
+}
+@media screen  and (max-width:376px){
+
+    
+
+    .frequently-section {
+        border: 1px solid black;
+        height: auto;
+        display: grid;
+        grid-template-rows: 20% 68%;
+        padding-top: 100px;
+        row-gap: 40px;
+        width: 400%;
+    }
+    .frequently-content {
+        /* border: 5px solid black; */
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 100px;
+        padding-left: 100px;
+        padding-top: 20px;
+        height: auto;
+    }
+    .frequently-heading {
+        font-weight: 495;
+        color: #545454;
+        font-size: 70px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    .frequently-paragraph {
+        word-spacing: 0.3px;
+        font-size: 25px;
+    }
+}

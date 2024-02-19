@@ -17,7 +17,7 @@ function Footer() {
         <Row>
           <Col lg={6} md={8} className="newsletter">
           <Form>
-              <InputGroup className="mb-3">
+              <InputGroup className="mb-34">
                 <Form.Control className="footer-email" type="text" placeholder="Email..." />
                 <div className='btn-subscribe'>
                 <Button variant="primary" type="button" className='btn-sub'>

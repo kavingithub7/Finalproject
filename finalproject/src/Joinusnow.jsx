@@ -2,9 +2,9 @@ import React from 'react'
 import './Joinusnow.css';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
-function Joinusnow() {
+function Joinusnow1() {
   return (
-    <div>
+    <div className="js-section">
       
       <section id="contact-us" className="bg-light">
       <Container>
@@ -12,7 +12,7 @@ function Joinusnow() {
           <Col>
             {/* Heading Text */}
             <div className="section-heading text-center">
-              <h2>Join Us Now</h2>
+              <h2 className="js-header">Join Us Now</h2>
               <div className="line-title-center"></div>
             </div>
           </Col>
@@ -65,4 +65,4 @@ function Joinusnow() {
   )
 }
 
-export default Joinusnow
+export default Joinusnow1

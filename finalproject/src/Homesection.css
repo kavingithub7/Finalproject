@@ -131,36 +131,38 @@
 } */
 @media screen and (max-width : 320px){
     .forhomesction{
-        width: 307%;
+        width: 400%;
         grid-template-columns: 100%;
         height: auto;
         background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
        margin-top: 10px;
+       border:2px solid black ;
     }
     .forhomeheader{
         margin-top: 300px;
     }
     .forheaderlineone{
-        font-size: 91px;
+        font-size: 143px;
     }
     .forheaderlinetwo{
-        font-size: 91px;
+        font-size: 143px;
     }
     
     .forhomecontent{
-        line-height: 45px;
+        line-height: 57px;
         line-break: auto;
         margin-top: 40px;
+        /* font-size: 10px; */
     }
     .forcontentline1{
-        font-size: 27px;
+        font-size: 36px;
     
     }
     .forcontentline2{
-        font-size: 26px;
+        font-size: 35px;
     }
     .forcontentline3{
-        font-size: 27px;
+        font-size: 36px;
     }
     .forhomebutton{
         margin-left: -544px;
@@ -171,7 +173,7 @@
         border-radius: 12px;
         width: 26%;
         height: 50%;
-        margin-left: 208px;
+        margin-left: -97px;
         font-weight: 60;
         text-align: center;
         font-size: larger;
@@ -182,7 +184,69 @@
         
     }
     .homesectionimage{
-        width: 100%;
+        width: 92%;
+        height: 876px;
+    }
+
+}
+
+
+@media screen and (max-width : 376px){
+    .forhomesction{
+        width: 400%;
+        grid-template-columns: 100%;
+        height: auto;
+        background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
+       margin-top: 10px;
+       border:2px solid black ;
+    }
+    .forhomeheader{
+        margin-top: 300px;
+    }
+    .forheaderlineone{
+        font-size: 143px;
+    }
+    .forheaderlinetwo{
+        font-size: 143px;
+    }
+    
+    .forhomecontent{
+        line-height: 57px;
+        line-break: auto;
+        margin-top: 40px;
+        /* font-size: 10px; */
+    }
+    .forcontentline1{
+        font-size: 36px;
+    
+    }
+    .forcontentline2{
+        font-size: 35px;
+    }
+    .forcontentline3{
+        font-size: 36px;
+    }
+    .forhomebutton{
+        margin-left: -544px;
+        margin-top: 60px;
+        height: 15%;
+    }
+    .forbuttonstyle{
+        border-radius: 12px;
+        width: 26%;
+        height: 50%;
+        margin-left: -97px;
+        font-weight: 60;
+        text-align: center;
+        font-size: larger;
+        background-color: transparent;
+        color: white;
+        border-color: azure;
+        border-width: 1.5px;
+        
+    }
+    .homesectionimage{
+        width: 92%;
         height: 876px;
     }
 

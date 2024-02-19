@@ -10,11 +10,11 @@ import Joinusnow from "./Join";
 import Letsblog from "./Letsblog";
 import Multi from "./Multi";
 import Pricingsection from "./Pricingsection";
-import Screenshotsection from "./Screenshotsection";
 import Specificationsection from "./Specificationsection";
 import Testominal from "./Testominla";
 import Videosection from "./Videosection";
 import Whyisbestsection from "./Whyisbest";
+import Testominal1 from "./new";
 
 export default function Allsection()
 {
@@ -29,14 +29,16 @@ export default function Allsection()
         <Easyandsecuresection/>
         <Pricingsection/>
         <Designer/>
+        <Testominal/>
         <Letsblog/>
         <Frequently/>
-        <Screenshotsection/>
+        <Multi/>
+        {/* <Screenshotsection/> */}
         <Joinusnow/>
         <FormExample/>
-        <Footer/>
-        <Multi/>
-       <Testominal/>
+         <Footer/> 
+     
+    
         </>
     )
 }

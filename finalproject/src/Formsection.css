@@ -2,12 +2,14 @@
 
 .form-container {
     border: 1px solid #ddd;
-    padding: 50px;
-    margin-left: 85px;
+    /* padding: 50px; */
+    margin-left: 170px;
     margin-right: 85px;
     margin-top: 30px;
     color: black;
     border-radius: 12px;
+    height: 300px;
+    /* background-color: aqua; */
   }
   .submit{
     border: 1px solid white;
@@ -20,4 +22,96 @@
   .submit:hover{
     background: linear-gradient(to right, #dc3545,#e31374, #c11b69,#dc3545, #e83e8c);
    border: 1px solid white;
+  }
+  @media screen and (max-width:320px) {
+
+
+    .form-container {
+      border: 1px solid #ddd;
+      /* padding: 50px; */
+      margin-left: 170px;
+      margin-right: 85px;
+      margin-top: 30px;
+      color: black;
+      border-radius: 12px;
+      height: auto;
+      width: 335%;
+      /* background-color: aqua; */
+    }
+    .form-fst-name{
+      font-size: 47px;
+      /* background-color: white; */
+    }
+    .form-fst-name-placeholder{
+      font-size: 27px;
+    }
+    .form-lst-name{
+      font-size: 47px;
+      /* background-color: white; */
+    }
+    .form-lst-name-placeholder{
+      font-size: 27px;
+    }
+    .email-style{
+      font-size: 47px;
+    }
+    .message-style{
+      font-size: 47px;
+    }
+     .submit{
+    border: 1px solid white;
+    background-color: aliceblue;
+    float: right;
+    color: black;
+    width: 220px;
+    font-size: 34px;
+    border-radius: 12px;
+  }
+    
+  }
+  @media screen and (max-width:376px) {
+
+
+    .form-container {
+      border: 1px solid #ddd;
+      /* padding: 50px; */
+      margin-left: 170px;
+      margin-right: 85px;
+      margin-top: 30px;
+      color: black;
+      border-radius: 12px;
+      height: auto;
+      width: 335%;
+      /* background-color: aqua; */
+    }
+    .form-fst-name{
+      font-size: 47px;
+      /* background-color: white; */
+    }
+    .form-fst-name-placeholder{
+      font-size: 27px;
+    }
+    .form-lst-name{
+      font-size: 47px;
+      /* background-color: white; */
+    }
+    .form-lst-name-placeholder{
+      font-size: 27px;
+    }
+    .email-style{
+      font-size: 47px;
+    }
+    .message-style{
+      font-size: 47px;
+    }
+     .submit{
+    border: 1px solid white;
+    background-color: aliceblue;
+    float: right;
+    color: black;
+    width: 220px;
+    font-size: 34px;
+    border-radius: 12px;
+  }
+    
   }

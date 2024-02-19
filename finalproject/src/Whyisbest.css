@@ -122,17 +122,169 @@
   .forgoogleicon:hover{
     color: white;
   }
-  /* @media screen and (max-width: 576px){
+  @media screen and (max-width:320px){
+   
     .whyisbest{
+      display: grid;
       grid-template-columns: 100%;
       height: auto;
-      width: 148%;
-    
     }
     .whyisbestimage{
-      width: 265%;
-      height: 659px;
-     margin-bottom: 200px;
+      width: 288%;
+      height: 1412px;
     }
+    .whyisbestcontent{
+      border: 1px solid black;                
+      display: grid;
+      grid-template-rows: 25% 30% 21% ;
+      width: 383%;
+      height: auto;
+      /* width: 200%; */
+      margin-top: -180px;
+      height: 2500px;
+    }
+    .whyisbestheader{
+      border: 1px solid rosybrown;
+      /* margin-top: 100px; */
+      margin-left: 150px;
+      font-weight: 600;
+      color: #595d61;
+      font-size: 86px;
+      text-transform: uppercase;
+      line-height:91px;
+      height: auto;
+      /* padding-bottom: 827px; */
+      width: auto;
+    }
+    .whyisbestparagraph{
+      border: 1px solid rgb(0, 0, 0);        
+      margin-top: 81px;
+      margin-left:150px;
+      font-size: 45px;
+      height: auto;
+      width: 86%;
+    }
+    .whyisbestparagraph2{
+      border: 1px solid rgb(0, 0, 0);        
+      margin-top: 81px;
+      margin-left:150px;
+      font-size: 45px;
+      height: auto;
+      width: 86%;
+    }
+    .whyisbest-btn1{
+      width: 250px;
+      height: 150px;
+      display: grid;
+      grid-template-columns: 20% 50%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      margin-left: 150px;
+      border-width: 2.5px;
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+      background-color: transparent;
+      column-gap: 12px;
+    }
+    .whyisbest-btn2{
+      width: 250px;
+      height: 150px;
+      display: grid;
+      grid-template-columns: 20% 50%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      margin-left: 35px;
+      border-width: .5px;
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+      background-color: transparent;
+      column-gap: 12px;
+    }
+    
 
-  } */
+  }
+  @media screen and (max-width:376px){
+   
+    .whyisbest{
+      display: grid;
+      grid-template-columns: 100%;
+      height: auto;
+    }
+    .whyisbestimage{
+      width: 288%;
+      height: 1412px;
+    }
+    .whyisbestcontent{
+      border: 1px solid black;                
+      display: grid;
+      grid-template-rows: 25% 30% 21% ;
+      width: 383%;
+      height: auto;
+      /* width: 200%; */
+      margin-top: -180px;
+      height: 2500px;
+    }
+    .whyisbestheader{
+      border: 1px solid rosybrown;
+      /* margin-top: 100px; */
+      margin-left: 150px;
+      font-weight: 600;
+      color: #595d61;
+      font-size: 86px;
+      text-transform: uppercase;
+      line-height:91px;
+      height: auto;
+      /* padding-bottom: 827px; */
+      width: auto;
+    }
+    .whyisbestparagraph{
+      border: 1px solid rgb(0, 0, 0);        
+      margin-top: 81px;
+      margin-left:150px;
+      font-size: 45px;
+      height: auto;
+      width: 86%;
+    }
+    .whyisbestparagraph2{
+      border: 1px solid rgb(0, 0, 0);        
+      margin-top: 81px;
+      margin-left:150px;
+      font-size: 45px;
+      height: auto;
+      width: 86%;
+    }
+    .whyisbest-btn1{
+      width: 250px;
+      height: 150px;
+      display: grid;
+      grid-template-columns: 20% 50%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      margin-left: 150px;
+      border-width: 2.5px;
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+      background-color: transparent;
+      column-gap: 12px;
+    }
+    .whyisbest-btn2{
+      width: 250px;
+      height: 150px;
+      display: grid;
+      grid-template-columns: 20% 50%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      margin-left: 35px;
+      border-width: .5px;
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+      background-color: transparent;
+      column-gap: 12px;
+    }
+    
+
+  }

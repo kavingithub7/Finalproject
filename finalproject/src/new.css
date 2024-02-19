@@ -1,0 +1,24 @@
+/* Testominal.css */
+
+.custom-carousel-arrow {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .prev-arrow {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+  }
+  
+  .next-arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+  }
+  

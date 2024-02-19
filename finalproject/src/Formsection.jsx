@@ -1,7 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-
 import Row from 'react-bootstrap/Row';
 import * as formik from 'formik';
 import * as yup from 'yup';
@@ -32,19 +31,21 @@ function FormExample() {
                         <Form noValidate onSubmit={handleSubmit}>
                             <Row className="mb-3">
                                 <Form.Group as={Col} md="4" controlId="validationFormik01">
-                                    <Form.Label>First name</Form.Label>
+                                    <Form.Label className='form-fst-name'>First name</Form.Label>
                                     <Form.Control
+                                       className='form-fst-name-placeholder'
                                         type="text"
                                         name="firstName"
                                         value={values.firstName}
                                         onChange={handleChange}
                                         isValid={touched.firstName && !errors.firstName}
                                     />
-                                    <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+                                    <Form.Control.Feedback >Looks good!</Form.Control.Feedback>
                                 </Form.Group>
                                 <Form.Group as={Col} md="4" controlId="validationFormik02">
-                                    <Form.Label>Last name</Form.Label>
+                                    <Form.Label className='form-lst-name'  >Last name</Form.Label>
                                     <Form.Control
+                                        className='form-lst-name-placeholder' 
                                         type="text"
                                         name="lastName"
                                         value={values.lastName}
@@ -55,8 +56,9 @@ function FormExample() {
                                     <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                                 </Form.Group>
                                 <Form.Group as={Col} md="4" controlId="validationFormikEmail">
-                                    <Form.Label>Email</Form.Label>
+                                    <Form.Label  className='email-style' >Email</Form.Label>
                                     <Form.Control
+                                       className='email-style-placeholder'
                                         type="email"
                                         name="email"
                                         value={values.email}
@@ -68,7 +70,7 @@ function FormExample() {
                             </Row>
                             <Row className="mb-3">
                                 <Form.Group as={Col} xs={12}>
-                                    <Form.Label>Message</Form.Label>
+                                    <Form.Label className='message-style'>Message</Form.Label>
                                     <Form.Control as="textarea" rows={5} />
                                 </Form.Group>
                             </Row>

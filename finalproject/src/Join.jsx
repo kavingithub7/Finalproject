@@ -12,7 +12,7 @@ function Joinusnow() {
           <Col>
             {/* Heading Text */}
             <div className="section-heading text-center">
-              <h2>Join Us Now</h2>
+              <h2 className='js-header'>Join Us Now</h2>
               <div className="line-title-center"></div>
             </div>
           </Col>
@@ -23,7 +23,7 @@ function Joinusnow() {
             <Col lg={3} md={6} sm={12}>
               <div className="contact-tags text-center">
                 
-                <p>
+                <p className='join-contact'>
                   support@email.com<br />
                   example@email.com
                 </p>
@@ -32,7 +32,7 @@ function Joinusnow() {
             <Col lg={3} md={6} sm={12}>
               <div className="contact-tags text-center">
                 <i className="icon-screen-smartphone"></i>
-                <p>
+                <p className='join-contact'>
                   +11 012345 6789<br />
                   +22 012345 6789
                 </p>
@@ -41,7 +41,7 @@ function Joinusnow() {
             <Col lg={3} md={6} sm={12}>
               <div className="contact-tags text-center">
                 <i className="fa fa-map-marker-alt" aria-hidden="true"></i>
-                <p>
+                <p className='join-contact'>
                   345, Mountain View,<br />
                   New York, USA
                 </p>
@@ -50,7 +50,8 @@ function Joinusnow() {
             <Col lg={3} md={6} sm={12}>
               <div className="contact-tags text-center">
                 <i className="icon-social-skype"></i>
-                <p>
+                <p className='join-contact'
+                >
                   support.live<br />
                   livesupport24
                 </p>

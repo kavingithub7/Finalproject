@@ -93,3 +93,57 @@
 .react-multi-carousel-dot{
   margin-top: 100px;
 } 
+@media screen  and (max-width:320px) {
+    .multi {
+        width: 399%;
+        height: auto;
+        /* border: 1px solid black; */
+        padding-top: 100px;
+    }
+    .screenshotheader {
+        /* border: 1px solid black; */
+        text-align: center;
+        font-size: 100px;
+    }
+    .for-ss-header {
+        font-weight: 400;
+        color: #2c2e30;
+        font-size: 100px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    .app-img-1,.app-img-2,.app-img-3,.app-img-4,.app-img-5,.app-img-6,.app-img-7,.app-img-8{
+
+
+        width: 300%;
+        height:1500px;
+    }
+}   
+@media screen  and (max-width:376px) {
+    .multi {
+        width: 399%;
+        height: auto;
+        /* border: 1px solid black; */
+        padding-top: 100px;
+    }
+    .screenshotheader {
+        /* border: 1px solid black; */
+        text-align: center;
+        font-size: 100px;
+    }
+    .for-ss-header {
+        font-weight: 400;
+        color: #2c2e30;
+        font-size: 100px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    .app-img-1,.app-img-2,.app-img-3,.app-img-4,.app-img-5,.app-img-6,.app-img-7,.app-img-8{
+
+
+        width: 300%;
+        height:1500px;
+    }
+}  

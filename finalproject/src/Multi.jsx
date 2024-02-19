@@ -24,6 +24,10 @@ export default function Multi()
 
     }
   
+    const customDotListStyle = {
+      marginTop: '10px', // Add your desired margin-top value
+      textAlign: 'center', // You can adjust the alignment if needed
+    };
 return(
     <div className="multi">
        <div className="screenshotheader">
@@ -47,7 +51,7 @@ return(
   containerClass="carousel-container"
   removeArrowOnDeviceType={["tablet", "mobile","desktop"]}
 //   deviceType={this.props.deviceType}
-  dotListClass={"custom-dot-list-style"}
+  dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
 >
  
